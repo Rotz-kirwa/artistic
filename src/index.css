@@ -334,3 +334,57 @@ footer {
     margin: 20px;
   }
 }
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 120px;
+    height: auto;
+    padding: 0 4vw;
+  }
+  .hero .container {
+    max-width: 100vw;
+    padding: 0 2vw;
+  }
+  .benarts-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+  .hero-message {
+    font-size: 0.98rem;
+    line-height: 1.4;
+    padding: 0.2rem 0;
+  }
+  .featured-artworks-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+  .container {
+    padding: 0 6px;
+  }
+  .gallery-section {
+    padding: 2rem 0;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 2vw;
+  }
+  .art-card {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    margin-bottom: 1.2rem;
+  }
+  .art-card img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+  }
+  .art-card-content {
+    padding: 0.7rem 0.6rem 1.1rem 0.6rem;
+  }
+  .price-tag {
+    font-size: 1rem;
+    padding: 0.2rem 0.7rem;
+  }
+}
