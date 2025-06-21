@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   min-height: 100vh;
-  background: url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-4ab0-622f-b799-63be4b49d583/raw?se=2025-06-21T17%3A53%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=033397c4-a963-5436-8d8b-2f790d93e2f3&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-21T13%3A26%3A08Z&ske=2025-06-22T13%3A26%3A08Z&sks=b&skv=2024-08-04&sig=Dfu%2B4MMeUagbpMebRfIHq1Z98IoX61N7eXD3lvIrXws%3D') no-repeat center center fixed;
-  background-size: cover;
+  background: url('https://assets.grok.com/users/6e5b3930-9cbb-48d5-9902-a9d6e1512092/generated/0b1d1073-470f-44e6-b494-71a683fd3c7b/image.jpg') no-repeat center center fixed !important;
+  background-size: cover !important;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   line-height: 1.6;
@@ -376,9 +376,13 @@ footer {
   }
   .art-card img {
     width: 100%;
-    height: auto;
-    max-height: 220px;
-    object-fit: cover;
+    height: 340px;
+    max-height: 60vw;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    margin: 0 auto;
   }
   .art-card-content {
     padding: 0.7rem 0.6rem 1.1rem 0.6rem;
