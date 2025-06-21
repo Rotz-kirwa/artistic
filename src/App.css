@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Glowing About Page Styles */
+.about-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #18122B 0%, #393053 100%), url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-4ab0-622f-b799-63be4b49d583/raw?se=2025-06-21T15%3A13%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=d0edf93e-7f51-52ba-bac6-04c9c92f1fb3&skoid=864daabb-d06a-46b3-a747-d35075313a83&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-20T18%3A17%3A41Z&ske=2025-06-21T18%3A17%3A41Z&sks=b&skv=2024-08-04&sig=TybSedtG1KecmBvPACYPjLWr4g1d7FGANFmyXwwshEw%3D');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  box-shadow: 0 0 40px 10px #5D50FE44;
+}
+
+.about-page .container {
+  background: rgba(24, 18, 43, 0.92);
+  border-radius: 24px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 0 32px 8px #A3FFD6AA, 0 0 8px 2px #5D50FE;
+  border: 1.5px solid #A3FFD6;
+  max-width: 700px;
+  margin: 2rem auto;
+  color: #00FF7F;
+  flex: 1 0 auto;
+}
+
+.about-page h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 12px #000, 0 0 8px #00FF7F99;
+  color: #00FF7F;
+  letter-spacing: 1px;
+}
+
+.about-content p {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+  text-shadow: 0 2px 8px #000, 0 0 4px #00FF7F44;
+  color: #B6FFB0;
+}
+
+.about-content .highlight {
+  font-weight: 600;
+  color: #00FF7F;
+  background: rgba(0,0,0,0.45);
+  border-left: 4px solid #00FF7F;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin: 1.2rem 0;
+  box-shadow: 0 0 12px 2px #A3FFD655;
+  text-shadow: 0 2px 8px #000, 0 0 4px #00FF7F99;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #18122B 0%, #393053 100%), url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-4ab0-622f-b799-63be4b49d583/raw?se=2025-06-21T15%3A13%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=d0edf93e-7f51-52ba-bac6-04c9c92f1fb3&skoid=864daabb-d06a-46b3-a747-d35075313a83&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-20T18%3A17%3A41Z&ske=2025-06-21T18%3A17%3A41Z&sks=b&skv=2024-08-04&sig=TybSedtG1KecmBvPACYPjLWr4g1d7FGANFmyXwwshEw%3D');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+footer {
+  flex-shrink: 0;
+}
