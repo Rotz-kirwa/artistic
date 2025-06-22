@@ -136,7 +136,7 @@ nav {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
 
@@ -156,9 +156,10 @@ nav {
 
 .art-card img {
   width: 100%;
-  max-width: 400px;
-  height: 320px;
-  max-height: 400px;
+  aspect-ratio: 1/1;
+  max-width: 380px;
+  max-height: 380px;
+  height: 380px;
   object-fit: cover;
   margin: 0 auto;
   display: block;
@@ -387,10 +388,11 @@ footer {
   }
   .art-card img {
     width: 100%;
+    aspect-ratio: 1/1;
     max-width: 98vw;
-    height: 220px;
     max-height: 60vw;
-    object-fit: contain;
+    height: 60vw;
+    object-fit: cover;
     background: #fff;
     border-radius: 8px 8px 0 0;
     display: block;
