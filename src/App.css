@@ -51,7 +51,7 @@
   background: linear-gradient(135deg, #0a2a6c 60%, #3a7bd5 100%);
   background-size: cover;
   background-position: center;
-  color: #fff;
+  color: #1aff1a !important;
   box-shadow: 0 0 40px 10px #5D50FE44;
 }
 
@@ -63,37 +63,18 @@
   border: 1.5px solid #A3FFD6;
   max-width: 700px;
   margin: 2rem auto;
-  color: #00FF7F;
-  flex: 1 0 auto;
+  color: #1aff1a !important;
 }
 
-.about-page h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  text-shadow: 0 2px 12px #000, 0 0 8px #00FF7F99;
-  color: #00FF7F;
-  letter-spacing: 1px;
-}
-
-.about-content p {
-  font-size: 1.5rem;
-  margin-bottom: 1.2rem;
-  line-height: 1.7;
-  text-shadow: 0 2px 8px #000, 0 0 4px #00FF7F44;
-  color: #B6FFB0;
-}
-
+.about-page h1,
+.about-page p,
+.about-page .highlight,
+.about-content p,
 .about-content .highlight {
-  font-weight: 600;
-  color: #00FF7F;
-  background: rgba(0,0,0,0.45);
-  border-left: 4px solid #00FF7F;
-  padding: 0.8rem 1rem;
-  border-radius: 8px;
-  margin: 1.2rem 0;
-  box-shadow: 0 0 12px 2px #A3FFD655;
-  text-shadow: 0 2px 8px #000, 0 0 4px #00FF7F99;
+  color: #1aff1a !important;
+  text-shadow: none !important;
+  background: none !important;
+  border: none !important;
 }
 
 body {

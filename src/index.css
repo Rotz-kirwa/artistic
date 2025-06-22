@@ -268,11 +268,14 @@ nav {
 }
 
 /* About Page */
-/* Remove conflicting about-page styles in index.css to ensure App.css green styles apply */
+/* Remove conflicting about-page styles in index.css to ensure App.css blue styles apply */
 .about-page,
 .about-page h1,
-.about-content p {
+.about-content p,
+.about-page p,
+.about-page .highlight {
   all: unset;
+  color: #2196f3 !important;
 }
 
 /* Footer */
