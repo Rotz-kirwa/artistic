@@ -1,11 +1,11 @@
 const artworks = [
   {
     id: 26,
-    title: "Mweshimiwa Wesly Korir",
+    title: "Wesly",
     artist: "BEN-ARTS",
-    image: "https://assets.grok.com/users/6e5b3930-9cbb-48d5-9902-a9d6e1512092/generated/0b1d1073-470f-44e6-b494-71a683fd3c7b/image.jpg",
-    description: "A dignified portrait capturing the presence and character of Mweshimiwa Wesly Korir.",
-    fullDescription: "This artwork honors Mweshimiwa Wesly Korir, reflecting his leadership and inspiring spirit through expressive color and form. A tribute to a respected figure."
+    image: "https://www.dropbox.com/scl/fi/39ggqqlcoltul29t121hc/IMG-20250621-WA0006.jpg?rlkey=xee13ull2u2a2ru7ms7u3p5m5&st=eddgn54v&raw=1",
+    description: "A dignified portrait capturing the presence and character of Wesly.",
+    fullDescription: "This artwork honors Wesly, reflecting leadership and inspiring spirit through expressive color and form. A tribute to a respected figure."
   },
   {
     id: 7,

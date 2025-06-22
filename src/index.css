@@ -156,8 +156,14 @@ nav {
 
 .art-card img {
   width: 100%;
-  height: 250px;
+  max-width: 400px;
+  height: 320px;
+  max-height: 400px;
   object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px 10px 0 0;
+  background: #fff;
 }
 
 .art-card-content {
@@ -381,7 +387,8 @@ footer {
   }
   .art-card img {
     width: 100%;
-    height: 340px;
+    max-width: 98vw;
+    height: 220px;
     max-height: 60vw;
     object-fit: contain;
     background: #fff;
