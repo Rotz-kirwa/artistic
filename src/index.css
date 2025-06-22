@@ -336,6 +336,11 @@ footer {
 }
 
 @media (max-width: 600px) {
+  html, body {
+    background: url('https://assets.grok.com/users/6e5b3930-9cbb-48d5-9902-a9d6e1512092/generated/0b1d1073-470f-44e6-b494-71a683fd3c7b/image.jpg') no-repeat center center !important;
+    background-size: cover !important;
+    background-attachment: scroll !important;
+  }
   .hero {
     min-height: 120px;
     height: auto;
