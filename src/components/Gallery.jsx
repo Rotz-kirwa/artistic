@@ -3,7 +3,7 @@ const artworks = [
     id: 26,
     title: "Mweshimiwa Wesly Korir",
     artist: "BEN-ARTS",
-    image: "https://www.dropbox.com/scl/fi/39ggqqlcoltul29t121hc/IMG-20250621-WA0006.jpg?rlkey=xee13ull2u2a2ru7ms7u3p5m5&st=6bzbojjd&dl=1",
+    image: "https://assets.grok.com/users/6e5b3930-9cbb-48d5-9902-a9d6e1512092/generated/0b1d1073-470f-44e6-b494-71a683fd3c7b/image.jpg",
     description: "A dignified portrait capturing the presence and character of Mweshimiwa Wesly Korir.",
     fullDescription: "This artwork honors Mweshimiwa Wesly Korir, reflecting his leadership and inspiring spirit through expressive color and form. A tribute to a respected figure."
   },
@@ -11,7 +11,7 @@ const artworks = [
     id: 7,
     title: "Madam Boss",
     artist: "BEN-ARTS",
-    image: "https://previews.dropbox.com/p/thumb/ACpd7dHv-TZqVvo5J4VaVYbrfGcx6yOA9G7PNdM38P5EcRKdXb-1Trn7aFMyzK5ixbwYu3P4TQoePw52hmmjJ6yTH_JkFbG6CyGsejA3mfIFf83lv2hF2-sjfwXK2K4xWtMLjGNcGAyhyR1SLIR7MxP0PgWhoBGlq915Nurf8bUsdEHWhul_pqK0mgW7oUYRtthm80khFMUPtSYc5yQinRYlXzi9LWWSMmP1th7JRNCtaboSXwDQB-m4HQmiXHYPOA_bSSBBx0ty6oG_p80YXevZKfFEHXHXVLtp4CqERI2xiaPEFuM7_jPztdqU_8CZx65hhuYlqNRIGlPRraWFJt2S/p.jpeg?is_prewarmed=true",
+    image: "https://www.dropbox.com/scl/fi/z2kikv4jqym5thmrd1n4z/IMG-20250621-WA0001.jpg?rlkey=z28jqgesz028ziv8n023k692d&st=8llw8qhg&raw=1",
     description: "A captivating digital artwork blending surreal colors and dreamlike forms.",
     fullDescription: "Dreamscape Vision invites viewers into a world where imagination and reality merge. The vibrant palette and fluid shapes evoke a sense of wonder and exploration, making it a standout piece in any collection."
   },
