@@ -6,18 +6,22 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router>
-      <div className="app" style={{minHeight: '100vh', display: 'flex', flexDirection: 'column'}}>
-        <Header />
-        <main style={{flex: 1}}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
-        </main>
-        <Footer />
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      background: '#0a2a6c',
+      color: '#fff',
+      fontSize: '2rem',
+      textAlign: 'center',
+      padding: '3rem'
+    }}>
+      <div>
+        <h1 style={{color: '#ff1744', fontSize: '3rem', marginBottom: '1.5rem'}}>disable</h1>
       </div>
-    </Router>
+    </div>
   );
 }
 
